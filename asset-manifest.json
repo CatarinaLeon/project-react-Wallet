@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/project-react-wallet/static/css/main.b8c321ea.chunk.css",
+    "main.js": "/project-react-wallet/static/js/main.6061cdb7.chunk.js",
+    "main.js.map": "/project-react-wallet/static/js/main.6061cdb7.chunk.js.map",
+    "runtime-main.js": "/project-react-wallet/static/js/runtime-main.b142fa16.js",
+    "runtime-main.js.map": "/project-react-wallet/static/js/runtime-main.b142fa16.js.map",
+    "static/js/2.939c7d63.chunk.js": "/project-react-wallet/static/js/2.939c7d63.chunk.js",
+    "static/js/2.939c7d63.chunk.js.map": "/project-react-wallet/static/js/2.939c7d63.chunk.js.map",
+    "index.html": "/project-react-wallet/index.html",
+    "static/css/main.b8c321ea.chunk.css.map": "/project-react-wallet/static/css/main.b8c321ea.chunk.css.map",
+    "static/js/2.939c7d63.chunk.js.LICENSE.txt": "/project-react-wallet/static/js/2.939c7d63.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b142fa16.js",
+    "static/js/2.939c7d63.chunk.js",
+    "static/css/main.b8c321ea.chunk.css",
+    "static/js/main.6061cdb7.chunk.js"
+  ]
+}
