@@ -1,12 +1,13 @@
 import React from 'react';
 
-function LabelInput({
+export default function LabelInput({
   title,
   type,
   placeholder = null,
   handleChange,
   name,
   handleClick,
+  value,
 }) {
   return (
     <label className="label">
@@ -15,6 +16,7 @@ function LabelInput({
         onChange={handleChange}
         onClick={handleClick}
         name={name}
+        value={value}
         className="input"
         type={type}
         placeholder={placeholder}
@@ -22,5 +24,3 @@ function LabelInput({
     </label>
   );
 }
-
-export default LabelInput;

@@ -6,6 +6,17 @@ import GoBackHeader from '../../_shared/GoBackHeader/GoBackHeader';
 export default class TransactionPage extends Component {
   state = {
     isOpenCategories: false,
+    date: '2021-12-10',
+    time: '14:53',
+    category: this.props.categories[0],
+    sum: '',
+    currency: 'EUR',
+    comment: '',
+  };
+
+  handleChange = e => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
   };
 
   closeCategoriesList = () => {
@@ -25,7 +36,7 @@ export default class TransactionPage extends Component {
       categories,
     } = this.props;
 
-    const { isOpenCategories } = this.state;
+    const { isOpenCategories, ...dataForm } = this.state;
 
     const formTitle =
       !isOpenCategories && (transType === 'costs' ? 'Расходы' : 'Доходы');
@@ -41,7 +52,10 @@ export default class TransactionPage extends Component {
         {!isOpenCategories ? (
           <TransactionForm
             addData={addData}
+            handleChange={this.handleChange}
             openCategoriesList={this.openCategoriesList}
+            dataForm={dataForm}
+            transType={transType}
           />
         ) : (
           <CategoriesList categories={categories} addCategory={addCategory} />
