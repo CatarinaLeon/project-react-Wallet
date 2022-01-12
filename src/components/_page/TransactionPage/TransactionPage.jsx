@@ -4,13 +4,13 @@ import GoBackHeader from '../../_shared/GoBackHeader/GoBackHeader'
 
 
 
-function TransactionPage() {
+function TransactionPage({closeTransactionPage,addData}) {
     return (
-        <>
-            <GoBackHeader />
-            <TransactionForm/>
+        <section style={{width:'400px', margin: '0 auto'}}>
+            <GoBackHeader handleGoBack={closeTransactionPage} />
+            <TransactionForm addData={addData}/>
         
-        </>
+        </section>
     )
 }
 
