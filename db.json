@@ -1,4 +1,57 @@
 {
-  "costs": [],
-  "incomes": []
+  "costs": [
+    {
+      "date": "2021-12-10",
+      "time": "14:53",
+      "category": {
+        "id": "diff",
+        "title": "Разное"
+      },
+      "sum": "4",
+      "currency": "EUR",
+      "comment": "gggg",
+      "id": 1
+    },
+    {
+      "isOpenCategories": false,
+      "date": "2021-12-10",
+      "time": "14:53",
+      "category": {
+        "id": "diff",
+        "title": "Разное"
+      },
+      "sum": "250",
+      "currency": "EUR",
+      "comment": "lek",
+      "id": 2
+    },
+    {
+      "isOpenCategories": false,
+      "date": "2021-12-10",
+      "time": "14:53",
+      "category": {
+        "id": "diff",
+        "title": "Разное"
+      },
+      "sum": "250",
+      "currency": "EUR",
+      "comment": "hshdh",
+      "id": 3
+    }
+  ],
+  "incomes": [
+    {
+      "isOpenCategories": false,
+      "date": "2021-12-10",
+      "time": "14:53",
+      "category": {
+        "id": "diff",
+        "title": "Разное"
+      },
+      "sum": "2222",
+      "currency": "EUR",
+      "comment": "rrrrrrr",
+      "id": 1
+    }
+  ]
 }
