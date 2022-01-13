@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/project-react-Wallet/static/css/main.5b0e8387.chunk.css",
-    "main.js": "/project-react-Wallet/static/js/main.08657474.chunk.js",
-    "main.js.map": "/project-react-Wallet/static/js/main.08657474.chunk.js.map",
+    "main.js": "/project-react-Wallet/static/js/main.de79fed1.chunk.js",
+    "main.js.map": "/project-react-Wallet/static/js/main.de79fed1.chunk.js.map",
     "runtime-main.js": "/project-react-Wallet/static/js/runtime-main.8395736d.js",
     "runtime-main.js.map": "/project-react-Wallet/static/js/runtime-main.8395736d.js.map",
     "static/css/2.bc922b9c.chunk.css": "/project-react-Wallet/static/css/2.bc922b9c.chunk.css",
-    "static/js/2.4221153c.chunk.js": "/project-react-Wallet/static/js/2.4221153c.chunk.js",
-    "static/js/2.4221153c.chunk.js.map": "/project-react-Wallet/static/js/2.4221153c.chunk.js.map",
+    "static/js/2.352a2f90.chunk.js": "/project-react-Wallet/static/js/2.352a2f90.chunk.js",
+    "static/js/2.352a2f90.chunk.js.map": "/project-react-Wallet/static/js/2.352a2f90.chunk.js.map",
     "index.html": "/project-react-Wallet/index.html",
     "static/css/2.bc922b9c.chunk.css.map": "/project-react-Wallet/static/css/2.bc922b9c.chunk.css.map",
     "static/css/main.5b0e8387.chunk.css.map": "/project-react-Wallet/static/css/main.5b0e8387.chunk.css.map",
-    "static/js/2.4221153c.chunk.js.LICENSE.txt": "/project-react-Wallet/static/js/2.4221153c.chunk.js.LICENSE.txt"
+    "static/js/2.352a2f90.chunk.js.LICENSE.txt": "/project-react-Wallet/static/js/2.352a2f90.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8395736d.js",
     "static/css/2.bc922b9c.chunk.css",
-    "static/js/2.4221153c.chunk.js",
+    "static/js/2.352a2f90.chunk.js",
     "static/css/main.5b0e8387.chunk.css",
-    "static/js/main.08657474.chunk.js"
+    "static/js/main.de79fed1.chunk.js"
   ]
 }
